@@ -15,28 +15,28 @@ npm install b-local-storage-wrapper
 ### Storing and Retrieving a String
 
 ```javascript
-const storage = require('local-storage-wrapper');
+const storage = require('b-local-storage-wrapper');
 
-storage.setItem('username', 'JohnDoe');
+storage.setItem('username', 'Atharv');
 
-console.log(storage.getItem('username')); // Output: 'JohnDoe'
+console.log(storage.getItem('username')); // Output: 'Atharv'
 ```
 
 ### Storing and Retrieving an Object
 
 ```javascript
-const storage = require('local-storage-wrapper');
+const storage = require('b-local-storage-wrapper');
 
-const user = { name: 'Alice', age: 30 };
+const user = { name: 'Atharv', age: 21 };
 storage.setItem('user', user);
 
-console.log(storage.getItem('user')); // Output: { name: 'Alice', age: 30 }
+console.log(storage.getItem('user')); // Output: { name: 'Atharv', age: 21 }
 ```
 
 ### Removing an Item
 
 ```javascript
-const storage = require('local-storage-wrapper');
+const storage = require('b-local-storage-wrapper');
 
 storage.removeItem('username');
 
@@ -46,7 +46,7 @@ console.log(storage.getItem('username')); // Output: null
 ### Clearing All Items
 
 ```javascript
-const storage = require('local-storage-wrapper');
+const storage = require('b-local-storage-wrapper');
 
 storage.setItem('key1', 'value1');
 storage.setItem('key2', 'value2');
@@ -60,7 +60,7 @@ console.log(storage.getItem('key2')); // Output: null
 ### Retrieving All Items
 
 ```javascript
-const storage = require('local-storage-wrapper');
+const storage = require('b-local-storage-wrapper');
 
 storage.setItem('key1', 'value1');
 storage.setItem('key2', 'value2');
