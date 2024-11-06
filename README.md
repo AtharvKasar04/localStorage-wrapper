@@ -7,7 +7,7 @@ A simple and lightweight JavaScript wrapper for the Web's localStorage API, maki
 You can install this package via npm:
 
 ```bash
-npm install local-storage-wrapper
+npm install b-local-storage-wrapper
 ```
 
 ## Usage

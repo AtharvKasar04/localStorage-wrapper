@@ -1,6 +1,6 @@
 {
   "name": "b-local-storage-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A lightweight wrapper for easy, JSON friendly localStorage management in your projects.",
   "main": "index.js",
   "scripts": {
