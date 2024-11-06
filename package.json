@@ -1,0 +1,25 @@
+{
+  "name": "b-local-storage-wrapper",
+  "version": "1.0.0",
+  "description": "A lightweight wrapper for easy, JSON friendly localStorage management in your projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtharvKasar04/localStorage-wrapper.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Atharv Kasar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AtharvKasar04/localStorage-wrapper/issues"
+  },
+  "homepage": "https://github.com/AtharvKasar04/localStorage-wrapper#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
